@@ -46,3 +46,68 @@ Resolution:
    * Virtual Machine Platform
    * Windows Hipervisor Platform 
  * Reboot
+
+## Manjaro
+
+> **Note**
+> Take regular snapshots.
+
+### Install Docker
+
+Make sure Manjaro is up to date:
+
+```shell
+sudo pacman -Syu
+```
+
+Install Docker:
+
+```shell
+sudo pacman -S docker
+```
+
+Start Docker service:
+
+```shell
+sudo systemctl start docker.service
+```
+
+Enable on startup:
+
+```shell
+sudo systemctl enable docker.service
+```
+
+Check installation:
+
+```shell
+sudo docker version
+```
+
+or
+
+```shell
+sudo docker info
+```
+
+For development we would like to run Docker without root:
+
+```shell
+sudo usermod -aG docker $USER
+```
+
+Now we reboot:
+
+```shell
+reboot
+```
+
+References:
+* [Docker]https://wiki.archlinux.org/title/docker) guide on archlinux wiki
+* [Manjaro Linux Docker installation](https://linuxconfig.org/manjaro-linux-docker-installation)
+
+### PacMan cheat-sheet
+
+| Command | Descriptio |
+|---|---|
+| `sudo pacman -Syu` | Update system to latest version |
