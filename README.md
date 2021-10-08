@@ -110,8 +110,26 @@ References:
 * [Docker](https://wiki.archlinux.org/title/docker) guide on archlinux wiki
 * [Manjaro Linux Docker installation](https://linuxconfig.org/manjaro-linux-docker-installation)
 
+### Visual Studio Code
+
+Arch [wiki](https://wiki.archlinux.org/title/Visual_Studio_Code#Installation) provides many options. I've used:
+
+```shell
+sudo pacman -Syu code
+```
+
+So we can get all package sources for extensions:
+
+```shell
+pamac install code-marketplace
+```
+
 ### PacMan cheat-sheet
 
 | Command | Descriptio |
 |---|---|
 | `sudo pacman -Syu` | Update system to latest version |
+
+### Pamac
+
+Enable AUR [follow](https://wiki.manjaro.org/index.php/Pamac) and tweak settings.
