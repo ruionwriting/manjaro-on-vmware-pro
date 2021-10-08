@@ -103,7 +103,7 @@ reboot
 ```
 
 References:
-* [Docker]https://wiki.archlinux.org/title/docker) guide on archlinux wiki
+* [Docker](https://wiki.archlinux.org/title/docker) guide on archlinux wiki
 * [Manjaro Linux Docker installation](https://linuxconfig.org/manjaro-linux-docker-installation)
 
 ### PacMan cheat-sheet
