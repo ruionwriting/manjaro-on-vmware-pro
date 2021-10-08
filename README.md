@@ -4,11 +4,22 @@
 
 ## System Details
 
+### Host
+
 * Windows 11 Home 6-bit
 * AMD Ryzen 7 5800X 8-Core Processor
 * 32 GB RAM
 * MOBO B550 AORUS ELITE AX V2 (AM4)
 * VIDIA GeForce GTX 1050 Ti
+
+### Guest
+
+* Manjaro Linux 64-bit
+* 4/2 cores, total of 8 CPU cores
+* RAM 16 GB
+* SCSI 120 GB (prellocated)
+* NAT network
+* 3D graphics with 8 GB for graphics memory
 
 ## VMWare Pro 16
 
