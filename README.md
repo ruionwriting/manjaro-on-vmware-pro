@@ -52,6 +52,10 @@ Resolution:
 > **Note**
 > Take regular snapshots.
 
+### ZSH (using Oh My ZSH)
+
+[The setup I like to follow](https://gist.github.com/yovko/becf16eecd3a1f69a4e320a95689249e).
+
 ### Install Docker
 
 Make sure Manjaro is up to date:
