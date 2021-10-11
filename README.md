@@ -1,4 +1,4 @@
-# Manjaro Linus On VMWare Pro 16
+# Manjaro Linux On VMWare Pro 16
 
 > Manjaro Linux developmento environment running on VMWare Pro 16 learning notes.
 
