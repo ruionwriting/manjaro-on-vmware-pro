@@ -6,7 +6,7 @@
 
 ### Host
 
-* Windows 11 Home 6-bit
+* Windows 11 Home 64-bit
 * AMD Ryzen 7 5800X 8-Core Processor
 * 32 GB RAM
 * MOBO B550 AORUS ELITE AX V2 (AM4)
