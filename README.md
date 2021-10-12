@@ -2,6 +2,18 @@
 
 > Manjaro Linux developmento environment running on VMWare Pro 16 learning notes.
 
+- [System Details](#system-details)
+  - [Host](#host)
+  - [Guest](#guest)
+- [VMWare Pro 16](#vmware-pro-16)
+  - [Troubleshooting](#troubleshooting)
+- [Manjaro](#manjaro)
+  - [ZSH (using Oh My ZSH)](#zsh-using-oh-my-zsh)
+  - [Install Docker](#install-docker)
+  - [Visual Studio Code](#visual-studio-code)
+  - [PacMan cheat-sheet](#pacman-cheat-sheet)
+  - [Pamac](#pamac)
+
 ## System Details
 
 ### Host
