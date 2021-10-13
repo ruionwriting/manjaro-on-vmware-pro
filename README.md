@@ -11,6 +11,7 @@
   - [ZSH (using Oh My ZSH)](#zsh-using-oh-my-zsh)
   - [Install Docker](#install-docker)
   - [Visual Studio Code](#visual-studio-code)
+  - [Signing commits](#signing-commits)
   - [PacMan cheat-sheet](#pacman-cheat-sheet)
   - [Pamac](#pamac)
 
@@ -134,6 +135,16 @@ So we can get all package sources for extensions:
 
 ```shell
 pamac install code-marketplace
+```
+
+### Signing commits
+
+Follow [Generating a new GPG key](https://docs.github.com/en/authentication/managing-commit-signature-verification/generating-a-new-gpg-key).
+
+[Signing commits](https://docs.github.com/en/authentication/managing-commit-signature-verification/signing-commits)
+
+```shell
+git config --global commit.gpgsign true
 ```
 
 ### PacMan cheat-sheet
