@@ -10,10 +10,13 @@
 - [Manjaro](#manjaro)
   - [ZSH (using Oh My ZSH)](#zsh-using-oh-my-zsh)
   - [Install Docker](#install-docker)
-  - [Visual Studio Code](#visual-studio-code)
-  - [Signing commits](#signing-commits)
-  - [PacMan cheat-sheet](#pacman-cheat-sheet)
-  - [Pamac](#pamac)
+  - [Package management](#package-management)
+    - [PacMan cheat-sheet](#pacman-cheat-sheet)
+    - [Pamac](#pamac)
+  - [Development](#development)
+    - [Git: Signing commits](#git-signing-commits)
+    - [Visual Studio Code](#visual-studio-code)
+    - [Node.js](#nodejs)
 
 ## System Details
 
@@ -123,21 +126,21 @@ References:
 * [Docker](https://wiki.archlinux.org/title/docker) guide on archlinux wiki
 * [Manjaro Linux Docker installation](https://linuxconfig.org/manjaro-linux-docker-installation)
 
-### Visual Studio Code
+### Package management
 
-Arch [wiki](https://wiki.archlinux.org/title/Visual_Studio_Code#Installation) provides many options. I've used:
+#### PacMan cheat-sheet
 
-```shell
-sudo pacman -Syu code
-```
+| Command | Descriptio |
+|---|---|
+| `sudo pacman -Syu` | Update system to latest version |
 
-So we can get all package sources for extensions:
+#### Pamac
 
-```shell
-pamac install code-marketplace
-```
+Enable AUR [follow](https://wiki.manjaro.org/index.php/Pamac) and tweak settings.
 
-### Signing commits
+### Development
+
+#### Git: Signing commits
 
 Follow [Generating a new GPG key](https://docs.github.com/en/authentication/managing-commit-signature-verification/generating-a-new-gpg-key).
 
@@ -151,12 +154,20 @@ git config --global commit.gpgsign true
 git config --global user.signingkey ***********8D9
 ```
 
-### PacMan cheat-sheet
+#### Visual Studio Code
 
-| Command | Descriptio |
-|---|---|
-| `sudo pacman -Syu` | Update system to latest version |
+Arch [wiki](https://wiki.archlinux.org/title/Visual_Studio_Code#Installation) provides many options. I've used:
 
-### Pamac
+```shell
+sudo pacman -Syu code
+```
 
-Enable AUR [follow](https://wiki.manjaro.org/index.php/Pamac) and tweak settings.
+So we can get all package sources for extensions:
+
+```shell
+pamac install code-marketplace
+```
+
+#### Node.js
+
+Follow [Node.js](NODEJS.md) guide.
