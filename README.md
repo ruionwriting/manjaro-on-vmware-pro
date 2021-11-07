@@ -147,6 +147,10 @@ Follow [Generating a new GPG key](https://docs.github.com/en/authentication/mana
 git config --global commit.gpgsign true
 ```
 
+```shell
+git config --global user.signingkey ***********8D9
+```
+
 ### PacMan cheat-sheet
 
 | Command | Descriptio |
