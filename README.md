@@ -13,6 +13,8 @@
   - [Package management](#package-management)
     - [PacMan cheat-sheet](#pacman-cheat-sheet)
     - [Pamac](#pamac)
+  - [Browsers](#browsers)
+    - [Microsoft Edge](#microsoft-edge)
   - [Development](#development)
     - [Git: Signing commits](#git-signing-commits)
     - [Visual Studio Code](#visual-studio-code)
@@ -137,7 +139,27 @@ References:
 
 #### Pamac
 
-Enable AUR [follow](https://wiki.manjaro.org/index.php/Pamac) and tweak settings.
+Enables AUR packages and tweak settings. [follow](https://wiki.manjaro.org/index.php/Pamac) for full details.
+
+Updating the System:
+
+```shell
+pamac checkupdates -a
+```
+
+Update all installed packages:
+
+```shell
+pamac upgrade -a
+```
+
+### Browsers
+
+#### Microsoft Edge
+
+```shell
+pamac install microsoft-edge-beta-bin
+```
 
 ### Development
 
