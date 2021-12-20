@@ -28,7 +28,7 @@
 - AMD Ryzen 7 5800X 8-Core Processor
 - 32 GB RAM
 - MOBO B550 AORUS ELITE AX V2 (AM4)
-- VIDIA GeForce GTX 1050 Ti
+- NVIDIA GeForce GTX 1050 Ti
 
 ### Guest
 
