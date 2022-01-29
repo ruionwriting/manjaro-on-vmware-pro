@@ -26,3 +26,8 @@
    ```
    
    Reboot. In case resolutions is still limited to 800x600 check [troubleshooting](https://wiki.archlinux.org/title/VMware/Install_Arch_Linux_as_a_guest#Window_resolution_autofit_problems) guide.
+
+## Guides
+
+1. [Pacman Guide](https://kaosx.us/docs/pacman/)
+2. 
