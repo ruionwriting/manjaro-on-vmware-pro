@@ -26,6 +26,16 @@
    ```
    
    Reboot. In case resolutions is still limited to 800x600 check [troubleshooting](https://wiki.archlinux.org/title/VMware/Install_Arch_Linux_as_a_guest#Window_resolution_autofit_problems) guide.
+   
+1. Enable AUR packages
+
+   ```shell
+   sudo pacman -Syu pamac-gtk
+   ````
+   
+   Follow [Pamac](https://wiki.manjaro.org/index.php/Pamac) configuration guide. Don't forget to enable AUR:
+   
+   ![image](https://user-images.githubusercontent.com/1220067/151681842-979fe9e9-86ff-43fc-8008-9c093e88a66b.png)
 
 ## Guides
 
