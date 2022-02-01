@@ -72,7 +72,24 @@ Resolution:
 
 ### ZSH (using Oh My ZSH)
 
-[The setup I like to follow](https://gist.github.com/yovko/becf16eecd3a1f69a4e320a95689249e).
+[The setup I like to follow](https://gist.github.com/yovko/becf16eecd3a1f69a4e320a95689249e). Then [install](https://wiki.archlinux.org/title/Powerline#Zs) Powerline fonts:
+
+```shell
+sudo pacman -Syu powerline 
+```
+
+add
+
+```shell
+sudo pacman -Syu powerline-fonts 
+```
+
+Finally add to _.zshrc_:
+
+```shell
+powerline-daemon -q
+. /usr/share/powerline/bindings/zsh/powerline.zsh
+```
 
 ### Install Docker
 
